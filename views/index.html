@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/models/productos.js" type="module"></script>
+    <script src="/scripts/main.js" type="module"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h1>
+                <span class="shopper">LA TIENDITA 100% LEGAL</span>
+                <br>
+                <br>
+                <br>
+                <span class="shopper"> DE ROLEX REALES NO FAKE</span>
+            </h1>
+        </div>
+
+        <div class="cart transition is-open">
+            <div id="tabla"class="table">
+                <!--Cabeceras de las columnas-->
+                <div class="layout-inline row th">
+                    <div class="col col-pro">Producto</div>
+                    <div class="col col-price align-center ">Precio</div>
+                    <div class="col col-qty align-center">Cantidad</div>
+                    <div class="col">IVA</div>
+                    <div class="col">Total</div>
+                </div>
+                
+            </div>
+
+            <a id="btnComprar"class="btn btn-update">Realizar Compra</a>
+
+        </div>
+</body>
+
+</html>
